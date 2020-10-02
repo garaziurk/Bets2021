@@ -1,0 +1,140 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-02-27 17:16:26 #1 store] 
+Database 'E:\Informatika\2_MAILA\SI\proiektua\Bets2020\src\main\resources\bets.temp' is opened by 16020@DESKTOP-JDT4P4N
+
+[2020-02-27 17:16:26 #2 type.registry] 
+New type domain.Question
+
+[2020-02-27 17:16:26 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-02-27 17:16:26 #4 type.registry] 
+New type domain.Event
+
+[2020-02-27 17:16:26 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-02-27 17:16:26 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-02-27 17:16:26 #7 type.registry] 
+New type domain.Pertsona
+
+[2020-02-27 17:16:26 #8 type.registry] 
+New type domain.PertsonaMota
+
+[2020-02-27 17:16:26 #9 type] 
+Type domain.Pertsona is not enhanced.
+
+[2020-02-27 17:16:26 #10 type] 
+Type domain.PertsonaMota is not enhanced.
+
+[2020-02-27 17:16:26 #11 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-02-27 17:22:55 #1 store] 
+Database 'E:\Informatika\2_MAILA\SI\proiektua\Bets2020\src\main\resources\bets.temp' is opened by 7780@DESKTOP-JDT4P4N
+
+[2020-02-27 17:22:55 #2 type.registry] 
+New type domain.Question
+
+[2020-02-27 17:22:55 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-02-27 17:22:55 #4 type.registry] 
+New type domain.Event
+
+[2020-02-27 17:22:55 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-02-27 17:22:55 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-02-27 17:22:55 #7 type.registry] 
+New type domain.Pertsona
+
+[2020-02-27 17:22:55 #8 type.registry] 
+New type domain.PertsonaMota
+
+[2020-02-27 17:22:55 #9 type] 
+Type domain.Pertsona is not enhanced.
+
+[2020-02-27 17:22:55 #10 type] 
+Type domain.PertsonaMota is not enhanced.
+
+[2020-02-27 17:22:55 #11 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-02-27 17:23:26 #1 store] 
+Database 'E:\Informatika\2_MAILA\SI\proiektua\Bets2020\src\main\resources\bets.temp' is opened by 15736@DESKTOP-JDT4P4N
+
+[2020-02-27 17:23:26 #2 type.registry] 
+New type domain.Question
+
+[2020-02-27 17:23:26 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-02-27 17:23:26 #4 type.registry] 
+New type domain.Event
+
+[2020-02-27 17:23:26 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-02-27 17:23:26 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-02-27 17:23:26 #7 type.registry] 
+New type domain.Pertsona
+
+[2020-02-27 17:23:26 #8 type.registry] 
+New type domain.PertsonaMota
+
+[2020-02-27 17:23:26 #9 type] 
+Type domain.Pertsona is not enhanced.
+
+[2020-02-27 17:23:26 #10 type] 
+Type domain.PertsonaMota is not enhanced.
+
+[2020-02-27 17:23:26 #11 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-02-27 17:46:20 #1 store] 
+Database 'E:\Informatika\2_MAILA\SI\proiektua\Bets2020\src\main\resources\bets.temp' is opened by 14084@DESKTOP-JDT4P4N
+
+[2020-02-27 17:46:20 #2 type.registry] 
+New type domain.Question
+
+[2020-02-27 17:46:20 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-02-27 17:46:20 #4 type.registry] 
+New type domain.Event
+
+[2020-02-27 17:46:20 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-02-27 17:46:20 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-02-27 17:46:20 #7 type.registry] 
+New type domain.Pertsona
+
+[2020-02-27 17:46:20 #8 type.registry] 
+New type domain.PertsonaMota
+
+[2020-02-27 17:46:20 #9 type] 
+Type domain.Pertsona is not enhanced.
+
+[2020-02-27 17:46:20 #10 type] 
+Type domain.PertsonaMota is not enhanced.
+
+[2020-02-27 17:46:20 #11 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

@@ -1,0 +1,489 @@
+
+gui.Erreplikatu#<init>()Vb
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaI I("6*∞
+4b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javad d(
+æ
+ª
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javad d(A
+%37"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+""*
+4
+1*¢B
+6b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaJ J(
+}
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaJ J(/	
+%0int"__id*
+""„‡
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaJ J(0
+
+%1void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*
+gui.Erreplikatu*
+	
+%0int2setDefaultCloseOperation(I)’“
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaK K(
+
+%2void" java.awt.Window#setBounds(IIII)V*
+gui.Erreplikatu*2d*2d*2Á*2˛2setBounds(IIII)ïí
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaL L(
+%3javax.swing.JPanel"javax.swing.JPanelß
+§
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaL L(
+%4"javax.swing.JPanel#<init>()V*
+
+%3javax.swing.JPanel≠
+™
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaL L("
+gui.Erreplikatu"
+contentPane"__id*
+
+%3javax.swing.JPanel≠
+™
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaM M(
+%5javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPane≠™
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaM M('$
+%6javax.swing.border.EmptyBorder"javax.swing.border.EmptyBorder€
+ÿ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaM M(3
+%7",javax.swing.border.EmptyBorder#<init>(IIII)V*&
+$
+%6javax.swing.border.EmptyBorder*2*2*2*2üú
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaM M(4
+
+%8void">javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V*
+
+%5javax.swing.JPanel*&
+$
+%6javax.swing.border.EmptyBorder2&setBorder(Ljavax/swing/border/Border;)≠
+™
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaN N(
+%9javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPaneÖÇ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaN N(
+%10void"8javax.swing.JFrame#setContentPane(Ljava/awt/Container;)V*
+gui.Erreplikatu*
+
+%9javax.swing.JPanel2$setContentPane(Ljava/awt/Container;)Æ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaO O(
+%11javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPane˜Ù
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaO O(
+%12void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%11javax.swing.JPanel*
+""2#setLayout(Ljava/awt/LayoutManager;)∏
+µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaR R(
+%13javax.swing.JScrollPane"__id*)*'
+gui.Erreplikatu"
+scrollPaneApustuñì
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaR! R(*
+%14java.awt.Rectangle"java.awt.Rectangle∆
+√
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaR R(<
+%15" java.awt.Rectangle#<init>(IIII)V*
+
+%14java.awt.Rectangle*2*2~*2¶*2\âÜ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaR R(=
+%16void"3java.awt.Component#setBounds(Ljava/awt/Rectangle;)V* 
+
+%13javax.swing.JScrollPane*
+
+%14java.awt.Rectangle2setBounds(Ljava/awt/Rectangle;)∏
+µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaT T(
+%17javax.swing.JScrollPane"__id*)*'
+gui.Erreplikatu"
+scrollPaneApustuÆ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaT# T(.
+%18javax.swing.JTable"__id*$*"
+gui.Erreplikatu"
+tableApustuöó
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaT T(/
+%19void">javax.swing.JScrollPane#setViewportView(Ljava/awt/Component;)V* 
+
+%17javax.swing.JScrollPane*
+
+%18javax.swing.JTable2%setViewportView(Ljava/awt/Component;)¥
+±
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaU1 U(B
+%20java.lang.String[]"__id***(
+gui.Erreplikatu"
+columnNamesApustu∏µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaU U(**
+%21#javax.swing.table.DefaultTableModel"#javax.swing.table.DefaultTableModeló
+î
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaU U(C
+%22"Tjavax.swing.table.DefaultTableModel#<init>([[Ljava/lang/Object;[Ljava/lang/Object;)V*,
+*
+%21#javax.swing.table.DefaultTableModel*
+""*
+
+%20java.lang.String[]ƒ
+¡
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaU U(C'
+gui.Erreplikatu"
+tableModelApustu"__id*,
+*
+%21#javax.swing.table.DefaultTableModelÆ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaW W(
+%23javax.swing.JLabel"__id*$*"
+gui.Erreplikatu"
+lblApustuak‡›
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaW W((
+%24void"#java.awt.Component#setBounds(IIII)V*
+
+%23javax.swing.JLabel*2*2_*2À*22setBounds(IIII)Æ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaX X(
+%25javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPaneÆ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaX X(
+%26javax.swing.JLabel"__id*$*"
+gui.Erreplikatu"
+lblApustuakôñ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaX X(
+%27java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%25javax.swing.JPanel*
+
+%26javax.swing.JLabel2add(Ljava/awt/Component;)∏
+µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaZ Z(
+%28javax.swing.JScrollPane"__id*)*'
+gui.Erreplikatu"
+scrollPaneApustuÆ
+´
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaZ# Z(.
+%29javax.swing.JTable"__id*$*"
+gui.Erreplikatu"
+tableApustuöó
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaZ Z(/
+%30void">javax.swing.JScrollPane#setViewportView(Ljava/awt/Component;)V* 
+
+%28javax.swing.JScrollPane*
+
+%29javax.swing.JTable2%setViewportView(Ljava/awt/Component;)¥
+±
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java[1 [(B
+%31java.lang.String[]"__id***(
+gui.Erreplikatu"
+columnNamesApustu∏µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java[ [(**
+%32#javax.swing.table.DefaultTableModel"#javax.swing.table.DefaultTableModeló
+î
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java[ [(C
+%33"Tjavax.swing.table.DefaultTableModel#<init>([[Ljava/lang/Object;[Ljava/lang/Object;)V*,
+*
+%32#javax.swing.table.DefaultTableModel*
+""*
+
+%31java.lang.String[]ƒ
+¡
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java[ [(C'
+gui.Erreplikatu"
+tableModelApustu"__id*,
+*
+%32#javax.swing.table.DefaultTableModel‚ﬂ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java] ](
+%34java.awt.Container"7javax.swing.JFrame#getContentPane()Ljava/awt/Container;*
+gui.Erreplikatu2getContentPane()∏
+µ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java] ](,
+%35javax.swing.JScrollPane"__id*)*'
+gui.Erreplikatu"
+scrollPaneApustu©¶
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java] ](3
+%36void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*
+
+%34java.awt.Container* 
+
+%35javax.swing.JScrollPane*
+""2+add(Ljava/awt/Component;Ljava/lang/Object;)*
+4
+1*Ç
+0 "{
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaª ª(
+implicit return*ﬁC
+1b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javai i(8ÖÇ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javai i(6
+%38"javax.swing.JComboBoxò
+ï
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javai i(8
+%39"javax.swing.JComboBox#<init>()V*
+
+%38ûõ
+b
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaj& j(4
+%40Lgui/Erreplikatu$3498;"Lgui/Erreplikatu$3498;¨
+©
+c
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaj" â(
+%41"java.lang.Object#<init>()V*
+
+%40Lgui/Erreplikatu$3498;∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaã ã(
+%42javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPaneÚÔ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaã ã( 
+%43"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%42javax.swing.JPanel*
+""2add(Ljava/awt/Component;)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaé é(
+%44javax.swing.JTable"__id*$*"
+gui.Erreplikatu"
+tableApustu∆
+√
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaé é('*
+%45#javax.swing.table.DefaultTableModel"__id*)*'
+gui.Erreplikatu"
+tableModelApustu©¶
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaé é((
+%46void"<javax.swing.JTable#setModel(Ljavax/swing/table/TableModel;)V*
+
+%44javax.swing.JTable*,
+*
+%45#javax.swing.table.DefaultTableModel2(setModel(Ljavax/swing/table/TableModel;)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaè è(
+%47javax.swing.JTable"__id*$*"
+gui.Erreplikatu"
+tableApustuåâ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaè è()
+%48"javax.swing.table.TableColumnModel"Gjavax.swing.JTable#getColumnModel()Ljavax/swing/table/TableColumnModel;*
+
+%47javax.swing.JTable2getColumnModel()†ù
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaè è(+$
+%49javax.swing.table.TableColumn"Njavax.swing.table.TableColumnModel#getColumn(I)Ljavax/swing/table/TableColumn;*+
+)
+%48"javax.swing.table.TableColumnModel*22getColumn(I)ÔÏ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaè è(A
+%50void"3javax.swing.table.TableColumn#setPreferredWidth(I)V*&
+$
+%49javax.swing.table.TableColumn*22setPreferredWidth(I)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaê ê(
+%51javax.swing.JTable"__id*$*"
+gui.Erreplikatu"
+tableApustuåâ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaê ê()
+%52"javax.swing.table.TableColumnModel"Gjavax.swing.JTable#getColumnModel()Ljavax/swing/table/TableColumnModel;*
+
+%51javax.swing.JTable2getColumnModel()†ù
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaê ê(+$
+%53javax.swing.table.TableColumn"Njavax.swing.table.TableColumnModel#getColumn(I)Ljavax/swing/table/TableColumn;*+
+)
+%52"javax.swing.table.TableColumnModel*22getColumn(I)ÔÏ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaê ê(A
+%54void"3javax.swing.table.TableColumn#setPreferredWidth(I)V*&
+$
+%53javax.swing.table.TableColumn*22setPreferredWidth(I)Ø
+¨
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaì ì(
+%55javax.swing.JButton"__id*"* 
+gui.Erreplikatu"
+	btnAtzera†ù
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaì" ì(0
+%56Lgui/Erreplikatu$5165;"Lgui/Erreplikatu$5165;≠
+™
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaì ö(
+%57"java.lang.Object#<init>()V*
+
+%56Lgui/Erreplikatu$5165;π∂
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaì ö(
+%58void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%55javax.swing.JButton*
+
+%56Lgui/Erreplikatu$5165;22addActionListener(Ljava/awt/event/ActionListener;)Ø
+¨
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaõ õ(
+%59javax.swing.JButton"__id*"* 
+gui.Erreplikatu"
+	btnAtzera‰·
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaõ õ((
+%60void"#java.awt.Component#setBounds(IIII)V*
+
+%59javax.swing.JButton*2·*2ô*2s*22setBounds(IIII)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaú ú(
+%61javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPaneØ
+¨
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaú ú(
+%62javax.swing.JButton"__id*"* 
+gui.Erreplikatu"
+	btnAtzeraúô
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaú ú(
+%63java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%61javax.swing.JPanel*
+
+%62javax.swing.JButton2add(Ljava/awt/Component;)Ω
+∫
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaù ù(
+%64javax.swing.JLabel"__id*1*/
+gui.Erreplikatu"
+lblAukeratuErabiltzailea‚ﬂ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaù ù(5
+%65void"#java.awt.Component#setBounds(IIII)V*
+
+%64javax.swing.JLabel*2*2*2Æ*22setBounds(IIII)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaü ü(
+%66javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPaneΩ
+∫
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaü ü(*
+%67javax.swing.JLabel"__id*1*/
+gui.Erreplikatu"
+lblAukeratuErabiltzaileaõò
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaü ü(+
+%68java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%66javax.swing.JPanel*
+
+%67javax.swing.JLabel2add(Ljava/awt/Component;)¥
+±
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java† †(
+%69javax.swing.JButton"__id*'*%
+gui.Erreplikatu"
+btnErreplikatu†ù
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java†' †(5
+%70Lgui/Erreplikatu$5578;"Lgui/Erreplikatu$5578;≠
+™
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java†# ∑(
+%71"java.lang.Object#<init>()V*
+
+%70Lgui/Erreplikatu$5578;π∂
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java† ∑(
+%72void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%69javax.swing.JButton*
+
+%70Lgui/Erreplikatu$5578;22addActionListener(Ljava/awt/event/ActionListener;)¥
+±
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaπ π(
+%73javax.swing.JButton"__id*'*%
+gui.Erreplikatu"
+btnErreplikatu‰·
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.javaπ π(-
+%74void"#java.awt.Component#setBounds(IIII)V*
+
+%73javax.swing.JButton*2·*2Ï*2s*22setBounds(IIII)∞
+≠
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java∫ ∫(
+%75javax.swing.JPanel"__id*$*"
+gui.Erreplikatu"
+contentPane¥
+±
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java∫ ∫( 
+%76javax.swing.JButton"__id*'*%
+gui.Erreplikatu"
+btnErreplikatuúô
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/Erreplikatu.java∫ ∫(!
+%77java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%75javax.swing.JPanel*
+
+%76javax.swing.JButton2add(Ljava/awt/Component;)*
+0B
+gui.Erreplikatu

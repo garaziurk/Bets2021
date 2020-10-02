@@ -1,0 +1,7 @@
+organization=garaziurkizu
+projectKey=Bets2020_
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.12128
+dashboardUrl=https://sonarcloud.io/dashboard?id=Bets2020_
+ceTaskId=AXSmO4oyyaiKY5jwf8rL
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXSmO4oyyaiKY5jwf8rL

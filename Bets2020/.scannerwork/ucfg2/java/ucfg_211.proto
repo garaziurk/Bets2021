@@ -1,0 +1,99 @@
+
+*gui.MainGUI#getPanel()Ljavax/swing/JPanel;`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¿ ¿("3*°
+2`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¬ ¬(ìê
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¬ ¬(
+%1javax.swing.JPanel"javax.swing.JPanel•
+¢
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¬ ¬(
+%2"javax.swing.JPanel#<init>()V*
+
+%1javax.swing.JPanel°
+û
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¬ ¬(
+gui.MainGUI"
+panel"__id*
+
+%1javax.swing.JPanel°
+û
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java√ √(
+%3javax.swing.JPanel"__id**
+gui.MainGUI"
+panelÿ
+’
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java√ √('
+%4javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;*
+gui.MainGUIöó
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java√ √((
+%5java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%3javax.swing.JPanel* 
+
+%4javax.swing.JRadioButton2add(Ljava/awt/Component;)°
+û
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaƒ ƒ(
+%6javax.swing.JPanel"__id**
+gui.MainGUI"
+panelÿ
+’
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaƒ ƒ('
+%7javax.swing.JRadioButton"@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;*
+gui.MainGUIöó
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaƒ ƒ((
+%8java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%6javax.swing.JPanel* 
+
+%7javax.swing.JRadioButton2add(Ljava/awt/Component;)°
+û
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java≈ ≈(
+%9javax.swing.JPanel"__id**
+gui.MainGUI"
+panel◊
+‘
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java≈ ≈(%
+%10javax.swing.JRadioButton">gui.MainGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;*
+gui.MainGUIúô
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java≈ ≈(&
+%11java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%9javax.swing.JPanel*!
+
+%10javax.swing.JRadioButton2add(Ljava/awt/Component;)*
+1*ë
+3`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¡ ¡(°
+û
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java¡ ¡(
+%0javax.swing.JPanel"__id**
+gui.MainGUI"
+panel*
+2
+1*ã
+1`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java«	 «(¢
+ü
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java«	 «(
+%12javax.swing.JPanel"__id**
+gui.MainGUI"
+panel"
+`
+TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.java« «(
+
+%12javax.swing.JPanelB
+gui.MainGUI

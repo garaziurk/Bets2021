@@ -190,3 +190,44 @@ Type domain.Pertsona is not enhanced.
 [2020-10-03 13:32:38 #8 type] 
 Type domain.PertsonaErregistratua is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-03 14:30:51 #1 store] 
+Database 'C:\Users\Garazi\Desktop\Informatika\SI2\Proiektua\Bets2021\src\main\resources\bets.temp' is opened by 4104@DESKTOP-OCIQLOI
+
+[2020-10-03 14:30:52 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-03 14:30:52 #3 type.registry] 
+New type domain.Kuota
+
+[2020-10-03 14:30:52 #4 type.registry] 
+New type java.util.Vector<domain.Kuota>
+
+[2020-10-03 14:30:52 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-03 14:30:52 #6 type] 
+Type domain.Kuota is not enhanced.
+
+[2020-10-03 14:30:52 #7 type.registry] 
+New type domain.Apustua
+
+[2020-10-03 14:30:52 #8 type.registry] 
+New type java.util.Vector<domain.Apustua>
+
+[2020-10-03 14:30:52 #9 type] 
+Type domain.Apustua is not enhanced.
+
+[2020-10-03 14:30:52 #10 type.registry] 
+New type domain.Pertsona
+
+[2020-10-03 14:30:52 #11 type.registry] 
+New type domain.PertsonaErregistratua
+
+[2020-10-03 14:30:52 #12 type] 
+Type domain.Pertsona is not enhanced.
+
+[2020-10-03 14:30:52 #13 type] 
+Type domain.PertsonaErregistratua is not enhanced.
+

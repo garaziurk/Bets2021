@@ -1,93 +1,0 @@
-
-,gui.MainGUI#getBoton2()Ljavax/swing/JButton;^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javal l("3*º
-2^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javan n(%ìê
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javan n(#
-%1javax.swing.JButton"javax.swing.JButton•
-¢
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javan n(%
-%2"javax.swing.JButton#<init>()V*
-
-%1javax.swing.JButton≠
-™
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javan n(%%
-gui.MainGUI"
-jButtonCreateQuery"__id*
-
-%1javax.swing.JButton≠
-™
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javao o(
-%3javax.swing.JButton"__id*'*%
-gui.MainGUI"
-jButtonCreateQueryÇ
-ˇ
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javao o(C
-%4java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
-java.util.ResourceBundle*
-	Etiquetasóî
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javao o(\
-%5java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
-
-%4java.util.ResourceBundle*
-CreateQuery2getString(Ljava/lang/String;)¸˘
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javao o(]
-
-%6void"7javax.swing.AbstractButton#setText(Ljava/lang/String;)V*
-
-%3javax.swing.JButton*
-
-%5java.lang.String2setText(Ljava/lang/String;)≠
-™
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javap p(
-%7javax.swing.JButton"__id*'*%
-gui.MainGUI"
-jButtonCreateQueryëé
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javap, p(I
-%8Lgui/MainGUI$2744;"Lgui/MainGUI$2744;°
-û
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javap( u(
-%9"java.lang.Object#<init>()V*
-
-%8Lgui/MainGUI$2744;≠™
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javap u(
-%10void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
-
-%7javax.swing.JButton*
-
-%8Lgui/MainGUI$2744;22addActionListener(Ljava/awt/event/ActionListener;)*
-1*õ
-3^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javam m(≠
-™
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javam m(
-%0javax.swing.JButton"__id*'*%
-gui.MainGUI"
-jButtonCreateQuery*
-2
-1*î
-1^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaw	 w(Æ
-´
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaw	 w(
-%11javax.swing.JButton"__id*'*%
-gui.MainGUI"
-jButtonCreateQuery"~
-^
-TC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/gui/MainGUI.javaw w(
-
-%11javax.swing.JButtonB
-gui.MainGUI

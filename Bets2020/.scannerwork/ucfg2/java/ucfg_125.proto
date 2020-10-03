@@ -1,33 +1,0 @@
-
-WbusinessLogic.BLFacadeImplementation#getEventsMonth(Ljava/util/Date;)Ljava/util/Vector;w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaX  X(."startingBlock*ô
-startingBlockw
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaX. X(9·
-´
-w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaX X(
-%0"
-__annotate*
-	WebMethod*
-
-datejava.util.Dateª
-§
-w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaX4 X(8
-datejava.util.Date"__annotation*
-
-%0*
-1*½
-1w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaY Y('¥
-¢
-w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.javaZ Z(5
-datesjava.util.Vector"__id*
-"""–
-w
-mC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/businessLogic/BLFacadeImplementation.java\ \(
-
-datesjava.util.Vector:
-datejava.util.DateB(&
-$businessLogic.BLFacadeImplementation

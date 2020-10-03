@@ -1,0 +1,92 @@
+
++domain.Question#equals(Ljava/lang/Object;)Zd
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÂ Â("startingBlock*Ù
+2d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaË
+ Ë("n
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaË Ë(
+""*‡
+3d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÉ É(!¤
+¡
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÉ É("
+otherdomain.Question"__id*
+
+objjava.lang.Object±
+®
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÊ Ê(
+%2java.lang.Integer"__id*'*%
+domain.Question"
+questionNumber¸
+µ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÊ Ê(,
+%3java.lang.Integer"__id*.*,
+
+otherdomain.Question"
+questionNumber*
+2
+1*Ì
+startingBlockd
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÂ Â("®
+«
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÁ Á(
+
+%4"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object˜
+•
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÂ Â(!
+objjava.lang.Object"__annotation*
+
+%4*	
+5
+6
+8*Ù
+4d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÈ
+ È("n
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÈ È(
+""*›
+5d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÇ Ç(ÏÌ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÇ Ç(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Question2
+getClass()ÕÒ
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÇ Ç("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+3
+4*Ù
+6d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÆ
+ Æ("n
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÆ Æ(
+""*Ù
+8d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÄ
+ Ä("n
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÄ Ä(
+""*Ù
+1d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÌ	 Ì("n
+d
+XC:/Users/Garazi/Desktop/Informatika/SI2/lab0/Bets2020/src/main/java/domain/Question.javaÌ Ì(
+"":
+objjava.lang.ObjectB
+domain.Question

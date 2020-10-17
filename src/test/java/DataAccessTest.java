@@ -20,7 +20,7 @@ public class DataAccessTest {
 
 	 static DataAccess sut=new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
 	 static TestFacadeImplementation testBL=new TestFacadeImplementation();;
-
+	 
 	private Event ev;
 	
 	@Test

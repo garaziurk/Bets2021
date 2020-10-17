@@ -31,6 +31,7 @@ public class DataAccess  {
 	protected static EntityManagerFactory emf;
 	
 	ConfigXML c=ConfigXML.getInstance();
+	private PertsonaErregistratua per;
 
     public DataAccess(boolean initializeMode)  {
 		
@@ -79,7 +80,7 @@ public class DataAccess  {
 			Event ev14=new Event(14, "Alavés-Deportivo", UtilDate.newDate(year,month,1));
 			Event ev15=new Event(15, "Español-Villareal", UtilDate.newDate(year,month,1));
 			Event ev16=new Event(16, "Las Palmas-Sevilla", UtilDate.newDate(year,month,1));
-			
+		
 
 			Event ev17=new Event(17, "Málaga-Valencia", UtilDate.newDate(year,month,28));
 			Event ev18=new Event(18, "Girona-Leganés", UtilDate.newDate(year,month,28));
@@ -288,13 +289,25 @@ public class DataAccess  {
 		return false;
 	}
 	
+	//login probatzeko sortu dudan metodoa
+	//Pertsona erregistratua datu basetik ezabatzen du
+	public boolean removePertsona(int nan) {
+		PertsonaErregistratua per = db.find(PertsonaErregistratua.class, nan);
+		if (per!=null) {
+			db.getTransaction().begin();
+			db.remove(per);
+			db.getTransaction().commit();
+			return true;
+		} else 
+		return false;
+	}
+	
 	public Event getEventByNumber(int gZenb) {
 		return db.find(Event.class, gZenb);
 	}
 	
 	public void gertaeraSortu(int gZenb, String gDeskr, Date gData) {
-		Event gert = this.getEventByNumber(gZenb);
-		if(gert!=null) {
+		if(this.getEventByNumber(gZenb)!=null) {
 			JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("EventCantSave"));
 		}
 		else {
@@ -343,7 +356,7 @@ public class DataAccess  {
 	}
 	
 	public float updateDirua(int nan, float diru) {
-		PertsonaErregistratua per = db.find(PertsonaErregistratua.class, nan);
+		per = db.find(PertsonaErregistratua.class, nan);
 		db.getTransaction().begin();
 		float dir = per.addDirua(diru);
 		if (dir>=0) {

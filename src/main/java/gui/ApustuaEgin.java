@@ -1,7 +1,5 @@
 package gui;
 
-import java.awt.Color;
-import java.awt.Component;
 import java.awt.EventQueue;
 import java.awt.Rectangle;
 
@@ -38,37 +36,38 @@ import java.util.Vector;
 import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
 
-public class ApustuaEgin extends JFrame{
+public class ApustuaEgin extends Paint{
 	
+	private static final String ETIQUETAS = "Etiquetas";
 	private JCalendar jCalendar;
 	private Calendar calendarMio = null;
 	private JPanel contentPane;
 	private JTextField diruK;
-	private JButton btnAtzera = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Back"));
-	private JButton btnApustuaEgin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Bet"));
-	private JLabel lblHautatutakoGertaera = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ChoosenEvent"));
-	private JLabel lblDiruK = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("HowMuchMoneyDoYouWantToBet"));
-	private JLabel lblHautatutakoGaldera = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ChoosenQuestion"));
+	private JButton btnAtzera = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("Back"));
+	private JButton btnApustuaEgin = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("Bet"));
+	private JLabel lblHautatutakoGertaera = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("ChoosenEvent"));
+	private JLabel lblDiruK = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("HowMuchMoneyDoYouWantToBet"));
+	private JLabel lblHautatutakoGaldera = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("ChoosenQuestion"));
 	private JComboBox<Question> comboBoxGalderak;
 	private DefaultComboBoxModel<Question> galderak = new DefaultComboBoxModel<Question>();
 	private JComboBox<Event> comboBoxGertaera;
 	private DefaultComboBoxModel<Event> gertaerak = new DefaultComboBoxModel<Event>();
 	private JComboBox<Kuota> comboBoxKuota;
 	private DefaultComboBoxModel<Kuota> kuotak = new DefaultComboBoxModel<Kuota>();
-	private JLabel lblMomentuHonetanKontuan = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("MoneyYouHaveInTheAccount"));
-	private JButton btnApustuaGorde = new JButton(ResourceBundle.getBundle("Etiquetas").getString("SaveBet"));
+	private JLabel lblMomentuHonetanKontuan = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("MoneyYouHaveInTheAccount"));
+	private JButton btnApustuaGorde = new JButton(ResourceBundle.getBundle(ETIQUETAS).getString("SaveBet"));
 	
 	//Apustu anitzak gordetzen joateko
 	private JScrollPane scrollPaneApustua = new JScrollPane();
 	private JTable tableApustua= new JTable();
 	private DefaultTableModel tableModelApustua;
 	private String[] columnNamesApustua = new String[] {
-			ResourceBundle.getBundle("Etiquetas").getString("Event"), 
-			ResourceBundle.getBundle("Etiquetas").getString("Question"), 
-			ResourceBundle.getBundle("Etiquetas").getString("Prediction"), 
-			ResourceBundle.getBundle("Etiquetas").getString("Money")
+			ResourceBundle.getBundle(ETIQUETAS).getString("Event"), 
+			ResourceBundle.getBundle(ETIQUETAS).getString("Question"), 
+			ResourceBundle.getBundle(ETIQUETAS).getString("Prediction"), 
+			ResourceBundle.getBundle(ETIQUETAS).getString("Money")
 	};
-	private JLabel lblKuota = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("ChoosenPredictionAndFee"));
+	private JLabel lblKuota = new JLabel(ResourceBundle.getBundle(ETIQUETAS).getString("ChoosenPredictionAndFee"));
 	private JLabel lblDiruKontu;
 
 	//diru kantitatea zenbakia dela ziurtatzeko
@@ -200,10 +199,10 @@ public class ApustuaEgin extends JFrame{
 					kuota = (Kuota) tableApustua.getValueAt(i,2);
 					boolean gorde = bl.apustuaEgin(today, dirua, kuota, nan);
 					if (!gorde) {
-						JOptionPane.showMessageDialog(null, i + ResourceBundle.getBundle("Etiquetas").getString("CouldNotSave"));
+						JOptionPane.showMessageDialog(null, i + ResourceBundle.getBundle(ETIQUETAS).getString("CouldNotSave"));
 					}
 				}
-				JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("WellKept"));
+				JOptionPane.showMessageDialog(null, ResourceBundle.getBundle(ETIQUETAS).getString("WellKept"));
 												
 				setVisible(false);
 				UserPantaila up = new UserPantaila();
@@ -261,18 +260,18 @@ public class ApustuaEgin extends JFrame{
 								tableApustua.getColumnModel().getColumn(3).setPreferredWidth(150); 
 								
 							} else {
-								JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("EnoughMoney"));
+								JOptionPane.showMessageDialog(null, ResourceBundle.getBundle(ETIQUETAS).getString("EnoughMoney"));
 							}						
 						}
 						else {
-							JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("GreaterThanMinimun"));
+							JOptionPane.showMessageDialog(null, ResourceBundle.getBundle(ETIQUETAS).getString("GreaterThanMinimun"));
 						}
 					} else {
-						JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("SelectPrediction"));
+						JOptionPane.showMessageDialog(null, ResourceBundle.getBundle(ETIQUETAS).getString("SelectPrediction"));
 					}
 
 				} else {
-					JOptionPane.showMessageDialog(null, ResourceBundle.getBundle("Etiquetas").getString("BetMoneyNumber"));
+					JOptionPane.showMessageDialog(null, ResourceBundle.getBundle(ETIQUETAS).getString("BetMoneyNumber"));
 				}
 			}
 		});
@@ -321,10 +320,10 @@ public class ApustuaEgin extends JFrame{
 						Vector<domain.Event> events = facade.getEvents(firstDay);
 
 						if (events.isEmpty())
-							lblHautatutakoGertaera.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
+							lblHautatutakoGertaera.setText(ResourceBundle.getBundle(ETIQUETAS).getString("NoEvents")
 									+ ": " + dateformat1.format(calendarMio.getTime()));
 						else
-							lblHautatutakoGertaera.setText(ResourceBundle.getBundle("Etiquetas").getString("Events") + ": "
+							lblHautatutakoGertaera.setText(ResourceBundle.getBundle(ETIQUETAS).getString("Events") + ": "
 									+ dateformat1.format(calendarMio.getTime()));
 						comboBoxGertaera.removeAllItems();
 						System.out.println("Events " + events);
@@ -348,52 +347,5 @@ public class ApustuaEgin extends JFrame{
 		});
 		
 	}
-		
-		//Margotzeko metodoa:
-		public static void paintDaysWithEvents(JCalendar jCalendar) {
-			// For each day in current month, it is checked if there are events, and in that
-			// case, the background color for that day is changed.
-
-			BLFacade facade = MainGUI.getBusinessLogic();
-
-			Vector<Date> dates=facade.getEventsMonth(jCalendar.getDate());
-				
-			Calendar calendar = jCalendar.getCalendar();
-			
-			int month = calendar.get(Calendar.MONTH);
-
-			calendar.set(Calendar.DAY_OF_MONTH, 1);
-			int offset = calendar.get(Calendar.DAY_OF_WEEK);
-
-			if (Locale.getDefault().equals(new Locale("es")))
-				offset += 4;
-			else
-				offset += 5;
-			
-			
-		 	for (Date d:dates){
-
-		 		calendar.setTime(d);
-		 		System.out.println(d);
-		 		
-
-				
-				// Obtain the component of the day in the panel of the DayChooser of the
-				// JCalendar.
-				// The component is located after the decorator buttons of "Sun", "Mon",... or
-				// "Lun", "Mar"...,
-				// the empty days before day 1 of month, and all the days previous to each day.
-				// That number of components is calculated with "offset" and is different in
-				// English and Spanish
-
-				Component o = jCalendar.getDayChooser().getDayPanel()
-						.getComponent(calendar.get(Calendar.DAY_OF_MONTH) + offset);
-				o.setBackground(Color.CYAN);
-		 	}
-		 	
-		 		calendar.set(Calendar.DAY_OF_MONTH, 1);
-		 		calendar.set(Calendar.MONTH, month);
-		 	
-		}
 }		
 		

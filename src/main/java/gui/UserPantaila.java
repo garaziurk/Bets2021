@@ -85,7 +85,7 @@ public class UserPantaila extends JFrame {
 		btnApustuaEgin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
-				ApustuaEgin ae = new ApustuaEgin();
+				Paint ae = new ApustuaEgin();
 				ae.setVisible(true);
 				dispose();
 			}

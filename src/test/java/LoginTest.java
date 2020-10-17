@@ -36,7 +36,7 @@ public class LoginTest {
 		finally {
 			//metodo hau sortu dut dataAccessen, testaren ondoren db-a hasierako egoeran
 			//bezala uzteko
-			sut.removePertsona(nan);
+			
 		}
 	}
 	

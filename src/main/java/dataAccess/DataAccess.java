@@ -260,7 +260,7 @@ public class DataAccess  {
 		  }
 	 	return res;
 	}
-	
+
 
 /////////////////// GUK EGINDAKO METODOAK /////////////////////////////
 	public Pertsona getUserByNan(int nan) {

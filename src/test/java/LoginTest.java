@@ -44,7 +44,7 @@ public class LoginTest {
 	public void test2() {
 		int nan2 = 1234567;
 		String pasahitza = "kaixo";
-		
+
 		try {
 			boolean login = sut.login(nan2, pasahitza);
 			assertTrue(!login);
@@ -52,22 +52,23 @@ public class LoginTest {
 		catch(Exception e) {
 			fail();
 		}
+
 	}
 	
-	@Test
-	public void test3() {
-		String pasahitza = "kaixo";
-		nan2 = null;
-		
-		try {
-			boolean login = sut.login(nan2, pasahitza);
-			assertTrue(!login);
-		}	
-		catch(Exception e) {
-			e.printStackTrace();
-			fail();
-		}
-	}
+//	@Test
+//	public void test3() {
+//		String pasahitza = "kaixo";
+//		nan2 = null;
+//		
+//		try {
+//			boolean login = sut.login(nan2, pasahitza);
+//			assertTrue(!login);
+//		}	
+//		catch(Exception e) {
+//			e.printStackTrace();
+//			fail();
+//		}
+//	}
 	
 	@Test
 	public void test4() {

@@ -289,19 +289,6 @@ public class DataAccess  {
 		return false;
 	}
 	
-	//login probatzeko sortu dudan metodoa
-	//Pertsona erregistratua datu basetik ezabatzen du
-	public boolean removePertsona(int nan) {
-		PertsonaErregistratua per = db.find(PertsonaErregistratua.class, nan);
-		if (per!=null) {
-			db.getTransaction().begin();
-			db.remove(per);
-			db.getTransaction().commit();
-			return true;
-		} else 
-		return false;
-	}
-	
 	public Event getEventByNumber(int gZenb) {
 		return db.find(Event.class, gZenb);
 	}

@@ -10,6 +10,7 @@ import javax.persistence.Persistence;
 
 import configuration.ConfigXML;
 import domain.Event;
+import domain.PertsonaErregistratua;
 
 public class TestDataAccess {
 	protected  EntityManager  db;
@@ -78,5 +79,18 @@ public class TestDataAccess {
 				}
 				return ev;
 	    }
+		
+		//login probatzeko sortu dudan metodoa
+		//Pertsona erregistratua datu basetik ezabatzen du
+		public boolean removePertsona(int nan) {
+			PertsonaErregistratua per = db.find(PertsonaErregistratua.class, nan);
+			if (per!=null) {
+				db.getTransaction().begin();
+				db.remove(per);
+				db.getTransaction().commit();
+				return true;
+			} else 
+			return false;
+		}
 }
 

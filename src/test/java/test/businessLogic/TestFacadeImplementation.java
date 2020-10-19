@@ -35,5 +35,12 @@ public class TestFacadeImplementation {
 			return o;
 
 		}
+		
+		public boolean removePertsona(int nan) {
+			dbManagerTest.open();
+			boolean b=dbManagerTest.removePertsona(nan);
+			dbManagerTest.close();
+			return b;
+		}
 
 }

@@ -10,12 +10,13 @@ import org.junit.Test;
 import businessLogic.BLFacadeImplementation;
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
+import test.businessLogic.TestFacadeImplementation;
 
 public class LoginTest {
 
 	static DataAccess sut=new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
-	static BLFacadeImplementation testBL=new BLFacadeImplementation();
-
+	static TestFacadeImplementation testBL=new TestFacadeImplementation();
+	
 	private int nan = 12345678;
 	private Integer nan2;
 
@@ -36,7 +37,7 @@ public class LoginTest {
 		finally {
 			//metodo hau sortu dut dataAccessen, testaren ondoren db-a hasierako egoeran
 			//bezala uzteko
-			sut.removePertsona(nan);
+			testBL.removePertsona(nan);
 		}
 	}
 	
@@ -84,7 +85,7 @@ public class LoginTest {
 			fail();
 		}
 		finally {
-			sut.removePertsona(nan);
+			testBL.removePertsona(nan);
 		}
 	}
 	
@@ -103,7 +104,7 @@ public class LoginTest {
 			fail();
 		}
 		finally {
-			sut.removePertsona(nan);
+			testBL.removePertsona(nan);
 		}
 	}
 }

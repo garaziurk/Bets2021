@@ -35,8 +35,7 @@ public class LoginTest {
 			fail();
 		}
 		finally {
-			//metodo hau sortu dut dataAccessen, testaren ondoren db-a hasierako egoeran
-			//bezala uzteko
+			//metodo hau sortu dut, testaren ondoren db-a hasierako egoeran bezala uzteko
 			testBL.removePertsona(nan);
 		}
 	}

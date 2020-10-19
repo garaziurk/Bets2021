@@ -36,7 +36,7 @@ public class LoginTest {
 		finally {
 			//metodo hau sortu dut dataAccessen, testaren ondoren db-a hasierako egoeran
 			//bezala uzteko
-			
+			sut.removePertsona(nan);
 		}
 	}
 	
@@ -55,23 +55,8 @@ public class LoginTest {
 
 	}
 	
-//	@Test
-//	public void test3() {
-//		String pasahitza = "kaixo";
-//		nan2 = null;
-//		
-//		try {
-//			boolean login = sut.login(nan2, pasahitza);
-//			assertTrue(!login);
-//		}	
-//		catch(Exception e) {
-//			e.printStackTrace();
-//			fail();
-//		}
-//	}
-	
 	@Test
-	public void test4() {
+	public void test3() {
 		String pasahitza = "kaixo";
 		int nan2 = 11111111;
 		
@@ -85,7 +70,7 @@ public class LoginTest {
 	}
 	
 	@Test
-	public void test5() {
+	public void test4() {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		String pasahitza = "a";
 		
@@ -104,7 +89,7 @@ public class LoginTest {
 	}
 	
 	@Test
-	public void test6() {
+	public void test5() {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		String pasahitza = null;
 		

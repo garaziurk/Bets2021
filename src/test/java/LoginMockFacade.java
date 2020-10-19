@@ -53,25 +53,9 @@ public class LoginMockFacade {
 			fail();
 		}
 	}
-	
-//	@Test
-//	public void test3() {
-//		nan = null;
-//		String pasahitza = "kaixo";
-//		
-//		try {
-//			Mockito.doReturn(false).when(dataAccess).login(Mockito.anyInt(), Mockito.anyString());
-//			
-//			boolean login = sut.login(nan, pasahitza);
-//			assertTrue(!login);
-//		}
-//		catch (Exception e) {
-//			fail();
-//		}
-//	}
 
 	@Test
-	public void test4() {
+	public void test3() {
 		nan = 11111111;
 		String pasahitza = "kaixo";
 		
@@ -87,7 +71,7 @@ public class LoginMockFacade {
 	}
 	
 	@Test
-	public void test5() {
+	public void test4() {
 		nan = 12345678;
 		String pasahitza = "a";
 		
@@ -103,7 +87,7 @@ public class LoginMockFacade {
 	}
 	
 	@Test
-	public void test6() {
+	public void test5() {
 		nan = 12345678;
 		String pasahitza = null;
 		

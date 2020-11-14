@@ -15,6 +15,8 @@ import dataAccess.DataAccess;
 import domain.*;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
+import iterator.ExtendedIterator;
+import iterator.IteratzaileHedatua;
 
 /**
  * It implements the business logic as a web service.
@@ -86,11 +88,11 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @return collection of events
 	 */
     @WebMethod	
-	public Vector<Event> getEvents(Date date)  {
+	public ExtendedIterator<Event> getEvents(Date date)  {
 		dbManager.open(false);
 		Vector<Event>  events=dbManager.getEvents(date);
 		dbManager.close();
-		return events;
+		return new IteratzaileHedatua(events);
 	}
 
     

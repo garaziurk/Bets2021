@@ -92,5 +92,13 @@ public class TestDataAccess {
 			} else 
 			return false;
 		}
+
+
+		public boolean removeEventTestFacadeImplementation(Event ev) {
+			open();
+			boolean b = removeEvent(ev);
+			close();
+			return b;
+		}
 }
 

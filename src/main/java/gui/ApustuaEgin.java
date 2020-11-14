@@ -23,6 +23,7 @@ import domain.Event;
 import domain.Kuota;
 import domain.PertsonaErregistratua;
 import domain.Question;
+import iterator.ExtendedIterator;
 
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
@@ -317,9 +318,9 @@ public class ApustuaEgin extends Paint{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 				
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
-						if (events.isEmpty())
+						if (!events.hasNext())
 							lblHautatutakoGertaera.setText(ResourceBundle.getBundle(ETIQUETAS).getString("NoEvents")
 									+ ": " + dateformat1.format(calendarMio.getTime()));
 						else
@@ -328,11 +329,14 @@ public class ApustuaEgin extends Paint{
 						comboBoxGertaera.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
+						while(events.hasNext()) {
+							domain.Event ev = events.next();
 							gertaerak.addElement(ev);
+						}
 						comboBoxGertaera.repaint();
 
-						if (events.size() == 0)
+						events.goFirst();
+						if (!events.hasNext())
 							btnApustuaEgin.setEnabled(false);
 						else
 							btnApustuaEgin.setEnabled(true);

@@ -21,10 +21,7 @@ public class TestFacadeImplementation {
 		
 		 
 		public boolean removeEvent(Event ev) {
-			dbManagerTest.open();
-			boolean b=dbManagerTest.removeEvent(ev);
-			dbManagerTest.close();
-			return b;
+			return dbManagerTest.removeEventTestFacadeImplementation(ev);
 
 		}
 		

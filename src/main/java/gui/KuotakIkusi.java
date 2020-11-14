@@ -27,6 +27,7 @@ import configuration.UtilDate;
 import domain.Event;
 import domain.Kuota;
 import domain.Question;
+import iterator.ExtendedIterator;
 
 import javax.swing.JLabel;
 import javax.swing.DefaultComboBoxModel;
@@ -187,9 +188,9 @@ public class KuotakIkusi extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
-						if (events.isEmpty())
+						if (!events.hasNext())
 							lblGertaerak.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarMio.getTime()));
 						else
@@ -198,8 +199,10 @@ public class KuotakIkusi extends JFrame{
 						comboBoxGertaerak.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
+						while (events.hasNext()) {
+							domain.Event ev = events.next();
 							gertaerak.addElement(ev);
+						}
 						comboBoxGertaerak.repaint();
 
 //						if (events.size() == 0)

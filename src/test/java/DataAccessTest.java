@@ -32,14 +32,7 @@ public class DataAccessTest {
 			String queryText="proba galdera";
 			Float betMinimum=new Float(2);
 			
-			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-			Date oneDate=null;;
-			try {
-				oneDate = sdf.parse("05/10/2022");
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}	
+			Date oneDate = oneDate();
 			
 			//configure the state of the system (create object in the dabatase)
 			ev = testBL.addEvent(queryText,oneDate );
@@ -61,6 +54,17 @@ public class DataAccessTest {
 		           System.out.println("Finally "+b);          
 		        }
 		   }
+	private Date oneDate() {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		Date oneDate = null;
+		try {
+			oneDate = sdf.parse("05/10/2022");
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return oneDate;
+	}
+	
 	@Test
 	//sut.createQuestion:  The event has NOT one question with a queryText. 
 	public void test2() {

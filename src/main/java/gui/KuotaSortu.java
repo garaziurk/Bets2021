@@ -20,6 +20,7 @@ import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
 import domain.Question;
+import iterator.ExtendedIterator;
 
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
@@ -206,9 +207,9 @@ public class KuotaSortu extends Paint {
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						ExtendedIterator<domain.Event> events = facade.getEvents(firstDay);
 
-						if (events.isEmpty())
+						if (!events.hasNext())
 							lblHautatutakoGertaera.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarMio.getTime()));
 						else
@@ -217,11 +218,14 @@ public class KuotaSortu extends Paint {
 						comboBoxGertaera.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events)
+						while(events.hasNext()) {
+							domain.Event ev = events.next();
 							gertaerak.addElement(ev);
+						}
 						comboBoxGertaera.repaint();
 
-						if (events.size() == 0)
+						events.goFirst();
+						if (!events.hasNext())
 							btnKuotaSortu.setEnabled(false);
 						else
 							btnKuotaSortu.setEnabled(true);

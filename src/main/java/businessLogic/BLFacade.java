@@ -18,6 +18,7 @@ import domain.Pertsona;
 import domain.PertsonaErregistratua;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
+import iterator.ExtendedIterator;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -48,7 +49,7 @@ public interface BLFacade  {
 	 * @param date in which events are retrieved
 	 * @return collection of events
 	 */
-	@WebMethod public Vector<Event> getEvents(Date date);
+	@WebMethod public ExtendedIterator<Event> getEvents(Date date);
 	
 	/**
 	 * This method retrieves from the database the dates a month for which there are events

@@ -6,6 +6,10 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import businessLogic.BLFacade;
+import domain.PertsonaErregistratua;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.util.ResourceBundle;
@@ -21,6 +25,13 @@ public class UserPantaila extends JFrame {
 	private JButton gertaeraIkusi = new JButton(ResourceBundle.getBundle("Etiquetas").getString("SeeEvent"));
 	private JButton btnApustuaEgin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Bet"));
 	private JButton btnErreplikatu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Replicate"));
+	
+	BLFacade bl = MainGUI.getBusinessLogic();
+	int nan = Integer.parseInt(Login.nanZb.getText());
+	PertsonaErregistratua per = (PertsonaErregistratua)bl.getUserByNan(nan);
+	String izena = per.getIzena()+" "+per.getAbizena1();
+	private JButton btnApustuTaula = new JButton(ResourceBundle.getBundle("Etiquetas").getString("BetsTable")+" "+izena); 
+
 	
 	/**
 	 * Launch the application.
@@ -125,5 +136,16 @@ public class UserPantaila extends JFrame {
 		});
 		btnErreplikatu.setBounds(230, 140, 172, 40);
 		contentPane.add(btnErreplikatu);
+		
+		btnApustuTaula.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				setVisible(false);
+				ApustuenTaula e = new ApustuenTaula();
+				e.setVisible(true);
+				dispose();
+			}
+		});
+		btnApustuTaula.setBounds(42, 192, 173, 36);
+		contentPane.add(btnApustuTaula);
 	}
 }

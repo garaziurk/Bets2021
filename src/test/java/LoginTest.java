@@ -14,32 +14,11 @@ import test.businessLogic.TestFacadeImplementation;
 
 public class LoginTest {
 
-	static DataAccess sut=new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
-	static TestFacadeImplementation testBL=new TestFacadeImplementation();
+	public static DataAccess sut=new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
+	public static TestFacadeImplementation testBL=new TestFacadeImplementation();
 	
-	private int nan = 12345678;
 	private Integer nan2;
 
-	@Test
-	public void test1() {
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		String pasahitza = "kaixo";
-		
-		try {
-			Date jaioD = sdf.parse("21/07/1999");
-			sut.pertsonaErregistratu("iz", "ab1", "ab2", "email", 10, jaioD, nan, "A", "kaixo", "kaixo");
-			boolean login = sut.login(nan, pasahitza);
-			assertTrue(login);
-		}	
-		catch(Exception e) {
-			fail();
-		}
-		finally {
-			//metodo hau sortu dut, testaren ondoren db-a hasierako egoeran bezala uzteko
-			testBL.removePertsona(nan);
-		}
-	}
-	
 	@Test
 	public void test2() {
 		int nan2 = 1234567;
@@ -66,44 +45,6 @@ public class LoginTest {
 		}	
 		catch(Exception e) {
 			fail();
-		}
-	}
-	
-	@Test
-	public void test4() {
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		String pasahitza = "a";
-		
-		try {
-			Date jaioD = sdf.parse("21/07/1999");
-			sut.pertsonaErregistratu("iz", "ab1", "ab2", "email", 10, jaioD, nan, "A", "kaixo", "kaixo");
-			boolean login = sut.login(nan, pasahitza);
-			assertTrue(!login);
-		}	
-		catch(Exception e) {
-			fail();
-		}
-		finally {
-			testBL.removePertsona(nan);
-		}
-	}
-	
-	@Test
-	public void test5() {
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		String pasahitza = null;
-		
-		try {
-			Date jaioD = sdf.parse("21/07/1999");
-			sut.pertsonaErregistratu("iz", "ab1", "ab2", "email", 10, jaioD, nan, "A", "kaixo", "kaixo");
-			boolean login = sut.login(nan, pasahitza);
-			assertTrue(!login);
-		}	
-		catch(Exception e) {
-			fail();
-		}
-		finally {
-			testBL.removePertsona(nan);
 		}
 	}
 }

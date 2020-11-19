@@ -11,10 +11,10 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 
 public class BusinessLogicFactory {
-	public static BLFacade createBusinessLogic(boolean isLocal) {
+	public static BLFacade createBusinessLogic() {
 		try {
-			if(isLocal) {
-				ConfigXML c = ConfigXML.getInstance();
+			ConfigXML c = ConfigXML.getInstance();
+			if(c.isBusinessLogicLocal()) {		
 				DataAccess da= new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
 				return new BLFacadeImplementation(da);
 			}

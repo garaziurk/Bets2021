@@ -13,9 +13,9 @@ import factory.BusinessLogicFactory;
 public class IteratorProba {
 
 	public static void main(String[] args) {
-		boolean isLocal=true;
+		//boolean isLocal=true;
 		//Facade objektua lortu lehendabiziko ariketa erabiliz
-		BLFacade facadeInterface= BusinessLogicFactory.createBusinessLogic(isLocal);
+		BLFacade facadeInterface= BusinessLogicFactory.createBusinessLogic();
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date date;
 		try {

@@ -30,7 +30,9 @@ public class ApplicationLauncher {
 			BLFacade appFacadeInterface;
 			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 			
-			appFacadeInterface = BusinessLogicFactory.createBusinessLogic();
+			boolean isLocal = c.isBusinessLogicLocal();
+			boolean initializeMode = c.getDataBaseOpenMode().equals("initialize");
+			appFacadeInterface = BusinessLogicFactory.createBusinessLogic(isLocal, initializeMode);
 			MainGUI.setBussinessLogic(appFacadeInterface);
 
 			

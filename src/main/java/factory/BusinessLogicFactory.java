@@ -7,15 +7,13 @@ import javax.xml.ws.Service;
 
 import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
-import configuration.ConfigXML;
 import dataAccess.DataAccess;
 
 public class BusinessLogicFactory {
-	public static BLFacade createBusinessLogic() {
+	public static BLFacade createBusinessLogic(boolean isLocal, boolean initializeMode) {
 		try {
-			ConfigXML c = ConfigXML.getInstance();
-			if(c.isBusinessLogicLocal()) {		
-				DataAccess da= new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+			if(isLocal) {		
+				DataAccess da= new DataAccess(initializeMode);
 				return new BLFacadeImplementation(da);
 			}
 			else { //If remote
